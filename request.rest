@@ -1,0 +1,22 @@
+GET  http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2FkZWVkIiwiaWF0IjoxNjUwNjQ2ODAyLCJleHAiOjE2NTA2NDY4NDJ9.sYeojMrYoLa2TPjU3pk-5chgFiCYo8gVV16dx03tots
+
+###
+
+POST http://localhost:4000/token
+
+Content-Type: application/json
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic2FkZWVkIiwiaWF0IjoxNjUwNjQ2ODAyfQ.WF1PWPuigM0HAGWTRuWupEejnHAHhTAKJZdrhd8Z7vw"
+}
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username" : "sadeed"
+}
+
+
+
